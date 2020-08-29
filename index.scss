@@ -1,0 +1,79 @@
+div {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.container_top {
+    display: flex;
+    /* 块级元素Flex布局申明 */
+    /*display: inline-flex;*/
+    /* 行内元素也可以使用 Flex 布局。 */
+
+    flex-direction: row;
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+
+    flex-wrap: nowrap;
+    /*flex-wrap: wrap;*/
+    /*flex-wrap: wrap-reverse;*/
+
+    background-color: #000000;
+
+    justify-content: space-between;
+    /*flex-start | flex-end | center | space-around*/
+    ;
+}
+
+.top_box {
+    background-color: #B7B7B7;
+    height: 50px;
+    margin: 20px;
+    line-height: 50px;
+    font-size: 24px;
+    width: 33%;
+}
+
+.container_mid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #B7B7B7;
+}
+
+.mid_box {
+    height: 200px;
+    line-height: 200px;
+    font-size: 36px;
+    margin: 20px;
+
+}
+
+.images {
+    background-color: #D1E0E3;
+    width: 75%
+}
+
+.side_list {
+    background-color: #D8D3E7;
+    width: 25%
+}
+
+.container_bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+        justify-content: space-between;
+    background-color: #000000;
+}
+
+.bottom_box {
+    background-color: #B7B7B7;
+    height: 50px;
+    margin: 20px;
+    line-height: 50px;
+    font-size: 24px;
+    width: 25%;
+}
